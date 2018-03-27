@@ -13,6 +13,9 @@
 		63E28AF71B99C36100FBF6E0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63E28AF31B99C36100FBF6E0 /* Images.xcassets */; };
 		63E28AF81B99C36100FBF6E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63E28AF41B99C36100FBF6E0 /* Main.storyboard */; };
 		63E28AF91B99C36100FBF6E0 /* WeatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E28AF51B99C36100FBF6E0 /* WeatherViewController.swift */; };
+		9C614A94206AD17B00A68A41 /* Clima Cupertino.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C614A91206AD17B00A68A41 /* Clima Cupertino.png */; };
+		9C614A95206AD17B00A68A41 /* Clima Get Weather Page.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C614A92206AD17B00A68A41 /* Clima Get Weather Page.png */; };
+		9C614A96206AD17B00A68A41 /* Clima London.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C614A93206AD17B00A68A41 /* Clima London.png */; };
 		FC8B87024EB8D52F4F272F42 /* Pods_Clima.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F5E25A668EC55F9CCBEF83D /* Pods_Clima.framework */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +30,9 @@
 		63E28AF31B99C36100FBF6E0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		63E28AF41B99C36100FBF6E0 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		63E28AF51B99C36100FBF6E0 /* WeatherViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherViewController.swift; sourceTree = "<group>"; };
+		9C614A91206AD17B00A68A41 /* Clima Cupertino.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Clima Cupertino.png"; sourceTree = "<group>"; };
+		9C614A92206AD17B00A68A41 /* Clima Get Weather Page.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Clima Get Weather Page.png"; sourceTree = "<group>"; };
+		9C614A93206AD17B00A68A41 /* Clima London.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Clima London.png"; sourceTree = "<group>"; };
 		FE6E6069710BF8A1B69F6137 /* Pods-Clima.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Clima.release.xcconfig"; path = "Pods/Target Support Files/Pods-Clima/Pods-Clima.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -75,6 +81,7 @@
 		63E28ACE1B99C32400FBF6E0 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				9C614A90206AD16600A68A41 /* Screenshots */,
 				63E28ACF1B99C32400FBF6E0 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -113,6 +120,16 @@
 				FE6E6069710BF8A1B69F6137 /* Pods-Clima.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		9C614A90206AD16600A68A41 /* Screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				9C614A91206AD17B00A68A41 /* Clima Cupertino.png */,
+				9C614A92206AD17B00A68A41 /* Clima Get Weather Page.png */,
+				9C614A93206AD17B00A68A41 /* Clima London.png */,
+			);
+			name = Screenshots;
 			sourceTree = "<group>";
 		};
 		CCD2DB81C607F867799D830A /* Frameworks */ = {
@@ -185,8 +202,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C614A96206AD17B00A68A41 /* Clima London.png in Resources */,
+				9C614A95206AD17B00A68A41 /* Clima Get Weather Page.png in Resources */,
 				63E28AF71B99C36100FBF6E0 /* Images.xcassets in Resources */,
 				63E28AF81B99C36100FBF6E0 /* Main.storyboard in Resources */,
+				9C614A94206AD17B00A68A41 /* Clima Cupertino.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
